@@ -19,7 +19,7 @@ def input_select():
 
 def list_numbers():
     for num in numbers:
-        print(num,end="")
+        print(num,end=" ")
     print()
 
 def delete_numbers():
@@ -33,7 +33,7 @@ def delete_numbers():
 
 while True:
     print_menu()
-    select = input_select('')
+    select = input_select()
     if select == '1':
         add_value()
     elif select =='2':
